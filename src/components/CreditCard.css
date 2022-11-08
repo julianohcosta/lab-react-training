@@ -1,0 +1,68 @@
+.card{
+    height: 310px;
+    width: 500px;
+    border-radius: 20px;
+    margin:20px;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px #707070;
+}
+
+.bgColorGreen {
+    background-image:linear-gradient(rgba(17, 170, 153, 1),rgba(17, 170, 153, 0.8));
+    color:white;
+}
+
+.bgColorYellow {
+    background-image:linear-gradient(rgba(221, 187, 85, 1),rgba(221, 187, 85, 0.8));
+    color:white;
+}
+
+.bgColorGray {
+    background-image:linear-gradient(rgba(238, 238, 238, 1),rgba(238, 238, 238, 0.8));
+}
+
+.top-block{
+    display: inline-block;
+    width:500px;
+    height:155px;
+}
+.bottom-block{
+    display: inline-block;
+    width:500px;
+    height:155px;
+}
+.card-chip{
+    float:left;
+    margin: 20px;
+}
+.card-name{
+    float:right;
+    margin:20px;
+    position:relative;
+    font-size: 28px;
+    font-weight:550;
+}
+.card-number{
+    font-size: 28px;
+    margin: -15px 0 0 0;
+    text-align-last: center;
+}
+.balance{
+    float:left;
+    margin: 20px;
+    position:relative;
+    top:38px;
+}
+.card-balance{
+    font-weight:700;
+    font-size: 20px;
+    margin-top:10px;
+}
+.card-icon{
+    float:right;
+    margin: 75px 20px 0 0;
+}
+.circle-left{
+    margin-right: -15px;
+    opacity:0.7;
+}
